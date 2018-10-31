@@ -181,11 +181,10 @@ class ControllerExtensionPaymentPayping extends Controller {
 
 
 	private function checkState($status) {
-		$json = array();
-		$json['error'] = $this->language->get('error_status_undefined');
+		$json = $this->language->get('error_status_undefined');
 
 		if ($this->language->get('error_status_' . $status) != 'error_status_' . $status ) {
-			$json['error'] = $this->language->get('error_status_' . $status);
+			$json = $this->language->get('error_status_' . $status);
 		}
 
 		return $json;
