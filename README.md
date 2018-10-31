@@ -20,11 +20,11 @@
  </p>
 <p dir="rtl">
 سپس اخرین نسخه از افزونه پی پینگ ویژه opencart را 
-<a href="https://github.com/payping/plugins-opencart-v3/releases">«از این جا»</a>
+<a href="https://github.com/payping/plugins-opencart/releases">«از این جا»</a>
  دریافت کنید 
 </p>
 <p dir="rtl">
-<a href="https://github.com/payping/plugins-opencart-v3/releases" title="دانلود اخرین نسخه افزونه"><img width="70%" src="https://raw.githubusercontent.com/yeganehha/payping-insatll-help-asset-/master/plugins-EDD/download%20plugin.png" /></a>
+<a href="https://github.com/payping/plugins-opencart/releases" title="دانلود اخرین نسخه افزونه"><img width="70%" src="https://raw.githubusercontent.com/yeganehha/payping-insatll-help-asset-/master/plugins-EDD/download%20plugin.png" /></a>
 </p>
 <p dir="rtl">
 پس از دریافت فایل افزونه ، فایل را در مکان نصب opencart بر روی فایل منجر سرور آپلود نمایید. 
