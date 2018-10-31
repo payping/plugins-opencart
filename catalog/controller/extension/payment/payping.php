@@ -146,12 +146,12 @@ class ControllerExtensionPaymentPayping extends Controller {
 							$data['button_continue'] = $this->language->get('button_complete');
 							$data['continue'] = $this->url->link('checkout/success');
 						} else {
-							throw new Exception('متافسانه سامانه قادر به دریافت کد پیگیری نمی باشد! نتیجه درخواست : ' . $this->status_message($header['http_code']) . '(' . $header['http_code'] . ')' );
+							throw new Exception('متافسانه سامانه قادر به دریافت کد پیگیری نمی باشد! نتیجه درخواست : ' . $this->checkState($header['http_code']) . '(' . $header['http_code'] . ')' );
 						}
 					} elseif ($header['http_code'] == 400) {
 						throw new Exception('تراکنش ناموفق بود- شرح خطا : ' .  implode('. ',array_values (json_decode($response,true))) );
 					}  else {
-						throw new Exception(' تراکنش ناموفق بود- شرح خطا : ' . $this->status_message($header['http_code']) . '(' . $header['http_code'] . ')');
+						throw new Exception(' تراکنش ناموفق بود- شرح خطا : ' . $this->checkState($header['http_code']) . '(' . $header['http_code'] . ')');
 					}
 				}
 
