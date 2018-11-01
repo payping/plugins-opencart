@@ -1,8 +1,8 @@
 <div dir="rtl">
-<h2 dir="rtl">افزونه پی پینِگ، ویژه opencart نسخه 3 </h2>
+<h2 dir="rtl">افزونه پی‌پینگ، ویژه opencart نسخه 3 </h2>
 <p dir="rtl">
 افزونه هماهنگ شده با opencart نسخه 3، جهت ارتباط با سایت 
-<a href="https://payping.ir">«پی پینگ»</a>
+<a href="https://payping.ir">«پی‌پینگ»</a>
 می باشد.
 </p>
   <p dir="rtl">
