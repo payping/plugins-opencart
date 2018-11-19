@@ -31,8 +31,7 @@ class ControllerExtensionPaymentPayping extends Controller {
 		$Description = $this->language->get('text_order_no') . $order_info['order_id']; // Required
 		$Email = isset($order_info['email']) ? $order_info['email'] : ''; 	// Optional
 		$Mobile = isset($order_info['fax']) ? $order_info['fax'] : $order_info['telephone']; 	// Optional
-		$data['order_id'] = $this->encryption->encrypt($this->config->get('config_encryption'), $this->session->data['order_id']);
-		$CallbackURL = $this->url->link('extension/payment/payping/callback', 'order_id=' . $data['order_id'], true);  // Required
+		$CallbackURL = $this->url->link('extension/payment/payping/callback', '' , true);  // Required
 
 
 
@@ -91,7 +90,7 @@ class ControllerExtensionPaymentPayping extends Controller {
 			try {
 
 				if (isset($this->request->get['clientrefid'])) {
-					$order_id = $this->encryption->decrypt($this->config->get('config_encryption'), $this->request->get['clientrefid']);
+					$order_id = $this->request->get['clientrefid'] ;
 				} else {
 					if (isset($this->session->data['order_id'])) {
 						$order_id = $this->session->data['order_id'];
