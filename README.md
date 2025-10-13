@@ -1,98 +1,89 @@
-<div dir="rtl">
-<h2 dir="rtl">افزونه پی‌پینگ، ویژه opencart نسخه 3 </h2>
-<p dir="rtl">
-افزونه هماهنگ شده با opencart نسخه 3، جهت ارتباط با سایت 
-<a href="https://payping.ir">«پی‌پینگ»</a>
-می باشد.
-</p>
-  <p dir="rtl">
-توجه نمایید که این افزونه روی نسخه‌های قدیمی تر از نسخه 3 کار نمی کند.
-</p>
-<p dir="rtl">
-برای سفارش سازی افزونه و هرگونه تغییر می توانید برای ارتباط با سرویس های پی پینگ از
-<a href="https://docs.payping.ir">«مستندات»</a>
- استفاده نمایید
-</p>
-<h3 dir="rtl">راهنمای نصب :</h3>
- <p dir="rtl">
- پیش نیاز:
-بروزرسانی «opencart»، به جدیدترین نگارش 
- </p>
-<p dir="rtl">
-سپس اخرین نسخه از افزونه پی پینگ ویژه opencart را 
-<a href="https://github.com/payping/plugins-opencart/releases">«از این جا»</a>
- دریافت کنید 
-</p>
-<p dir="rtl">
-<a href="https://github.com/payping/plugins-opencart/releases" title="دانلود اخرین نسخه افزونه"><img width="70%" src="https://raw.githubusercontent.com/yeganehha/payping-insatll-help-asset-/master/plugins-EDD/download%20plugin.png" /></a>
-</p>
-<p dir="rtl">
-پس از دریافت فایل افزونه ، فایل را در مکان نصب opencart بر روی فایل منجر سرور آپلود نمایید. 
-</p>
-<p dir="rtl">
-<img width="80%" src="https://raw.githubusercontent.com/yeganehha/payping-insatll-help-asset-/master/plugins-whmcs-v7x/start%20upload.PNG"/>
-</p>
-  <p dir="rtl">
-پس از آپلود کامل فایل افزونه پرداخت پی‌پینگ، فایل را extract کنید. 
-</p>
-<p dir="rtl">
-<img width="80%" src="https://raw.githubusercontent.com/yeganehha/payping-insatll-help-asset-/master/plugins-opencart-V3/extracting.PNG"/>
-  <img width="80%" src="https://raw.githubusercontent.com/yeganehha/payping-insatll-help-asset-/master/plugins-opencart-V3/where%20extract.PNG"/>
-</p>
-<p dir="rtl">
-پس از اتمام extarct، وارد پوشه‌ای به نام plugins-opencart-1.0.0.0 شوید و سپس پوشه های «admin» ، «catalog» و «system» را در مکان نصب OpenCart کپی (4) کنید.
-</p>
-<p dir="rtl">
-<img width="90%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/select%20copy.PNG?raw=true" />
-  <img width="90%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/copy.PNG?raw=true" />
-</p>
-  
-<p dir="rtl">
-وارد محیط مدیریت opencart شوید و از منو گزینه افزونه ها و سپس از زیر منو افزونه ها (5) شوید. 
-</p>
-<p dir="rtl">
-<img width="90%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/select%20module.PNG?raw=true" />
-</p>
-  <p dir="rtl">
-در صفحه باز شده افزونه ها ؛ در قسمت فیلتر (6) گزینه پرداخت ها (7) را انتخاب نمایید و روی دکم فیلتر کلیک کنید. 
-</p>
-<p dir="rtl">
-<img width="60%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/select%20type%20module.PNG"/>
-</p>
-  <p dir="rtl">
-در لیست باز شده پی‌پینگ را پیدا کرده و بر روی دکمه سبز رنگ مقابل آن (8) کلیک کنید. 
-</p>
-<p dir="rtl">
-<img width="60%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/install.PNG?raw=true"/>
-</p>
-  <p dir="rtl">
-پس از نصب ؛ مجددا پی‌پینگ را پیدا کرده و بر روی دکمه آبی رنگ (9) کلیک کنید . 
-</p>
-<p dir="rtl">
-<img width="60%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/edit.PNG?raw=true"/>
-</p>
-<h4 dir="rtl">دریافت توکن:</h4>
-<p dir="rtl">
-وارد سایت پی پینگ شده و به حساب کاربری خود وارد شوید سپس 
- <a href="https://app.payping.ir/apps">«اینجا کلیک»</a>
- کنید و افزونه open cart را نصب کنید و جهت تایید با
- <a href="https://payping.ir">«پشتیبانی آنلاین سایت»</a>
- تماس بگیرید. <b>برای استفاده از افزونه حتما باید توکن شما تایید شده باشد</b>
-</p>
-   <p dir="rtl">
-صفحه پیکربندی دروازه پی‌پینگ برای شما باز می شود. در صورتی که وضعیت در حالت فعال (12) باشد، درگاه پی‌پینگ برای شما فعال می باشد و برای غیر فعالسازی درگاه فقط کافیست وضعیت را به غیر فعال تغییر دهید. در کادر (13) ترتیب نمایش را مشخص می کند، در صورتی که از آن اطلع کافی ندارد این کادر را خالی قرار دهید.در کادر (11) وضعیت سفارش پس از پرداخت را می توانید مشخص کنید . در کادر (10) توکن دریافتی از سایت پی‌پینگ را وارد نمایید. پس از انجام تغییرات مد نظر، دکمه ذخیره تغییرات (14) کلیک کنید. 
- </p>
-<p dir="rtl">
-<img width="100%" src="https://github.com/yeganehha/payping-insatll-help-asset-/blob/master/plugins-opencart-V3/payping.PNG?raw=true" />
-</p>
-<p dir="rtl">
-در صورت داشتن هرگونه سوال و نیاز به راهنمایی با 
- <a href="https://payping.ir">«پشتیبانی آنلاین سایت پی پینگ»</a>
- تماس بگیرید
-</p>
-  <p dir="rtl">
-توسعه دهنده :  
- <a href="http://erfanebrahimi.ir">عرفان ابراهیمی</a> - developed by :
-  <a href="http://erfanebrahimi.ir">Erfan Ebrahimi</a>
-</p>
-<div>
+# افزونه درگاه پرداخت پی‌پینگ برای OpenCart نسخه 4 به بالا
+
+با استفاده از این افزونه می‌توانید درگاه پرداخت **پی‌پینگ (PayPing)** را بر روی فروشگاه **OpenCart** نصب و فعال کنید.  
+نسخه فعلی افزونه با **OpenCart 4 به بالا** تست شده است و با نسخه‌های قدیمی‌تر سازگار نیست.
+
+---
+
+## ⚙️ ویژگی‌ها
+- نصب آسان از طریق بخش مدیریت افزونه‌ها
+- سازگار با OpenCart نسخه 4 به بالا
+- امکان تنظیم و ورود توکن PayPing از طریق پنل ادمین
+- پشتیبانی از پرداخت امن و بازگشت کاربر به سایت پس از پرداخت
+
+---
+
+## 🧩 پیش‌نیازها
+- OpenCart نسخه **۴.۰.۰.۰** یا بالاتر  
+- دسترسی ادمین برای نصب افزونه‌ها  
+- حساب فعال در سایت [PayPing.ir](https://payping.ir)
+
+---
+
+## ⚠️ نکته مهم قبل از نصب
+قبل از نصب افزونه، اطمینان حاصل کنید که فروشگاه OpenCart شما به آخرین نسخه به‌روزرسانی شده است.
+
+---
+
+## 🚀 مراحل نصب افزونه
+
+> **نام فایل نصب:** `payping.ocmod.zip`
+
+### 🔹 مرحله ۱: نصب از بخش افزونه‌ها
+1. در پنل مدیریت OpenCart وارد مسیر زیر شوید:  
+   **افزونه‌ها → نصب افزونه**
+2. فایل `payping.ocmod.zip` را آپلود کنید.
+
+<img width="1673" height="942" alt="{718262C6-9F03-4464-ACCF-A0B6D55E73A7}" src="https://github.com/user-attachments/assets/c9d00198-ab6f-4334-9daa-08d0ca772ac0" />
+
+پس از نصب، نام **PayPing Gateway for OpenCart** در لیست افزونه‌های نصب‌شده ظاهر می‌شود.  
+اکنون روی علامت **➕ (نصب)** کلیک کنید تا نصب کامل شود.
+
+---
+
+### 🔹 مرحله ۲: فعال‌سازی درگاه پرداخت
+1. از مسیر زیر وارد بخش افزونه‌های پرداخت شوید:  
+   **افزونه‌ها → افزونه‌ها → فیلتر: پرداخت‌ها**
+
+<img width="1666" height="941" alt="{520E96EA-160D-4C88-8CE7-54EBE113F07C}" src="https://github.com/user-attachments/assets/18f76ada-09c8-4251-b438-f41224feb654" />
+
+2. در این بخش، گزینه‌ی **درگاه پرداخت پی‌پینگ برای OpenCart** را مشاهده خواهید کرد.  
+   روی علامت **➕ (نصب)** کلیک کنید تا مرحله نصب انجام شود.  
+   > در صورتی که بارگذاری طول کشید، یک‌بار صفحه را رفرش کنید.
+
+3. پس از نصب، روی **✏️ (مداد)** کلیک کنید تا صفحه تنظیمات باز شود.
+
+<img width="1686" height="880" alt="{D6641D6D-5E34-479F-BC21-9267C0D4A30D}" src="https://github.com/user-attachments/assets/2ebb24f1-4704-41c3-aee1-b60611fc4c4b" />
+
+4. در این صفحه، اطلاعات خواسته‌شده مانند **توکن PayPing** را وارد کرده و روی **دکمه ذخیره** کلیک کنید.
+
+اگر پیام موفقیت‌آمیز بودن ذخیره تنظیمات را مشاهده کردید، افزونه با موفقیت نصب و آماده استفاده است.
+
+---
+
+## 🧪 نکته مهم پس از نصب
+پس از تنظیم درگاه، حتماً تست زیر را انجام دهید:
+
+1. یک محصول را به سبد خرید اضافه کنید.  
+2. به درگاه پرداخت بروید و پرداخت را **لغو کنید**.  
+3. پس از بازگشت به سایت، بررسی کنید که آیا از حساب کاربری خارج شده‌اید یا خیر.
+
+> در صورتی که پس از بازگشت از درگاه از حساب کاربری خود **خارج شدید**، از طریق پشتیبانی اطلاع دهید تا شما را راهنمایی کنیم.  
+> این مورد نیازمند تغییراتی در **هسته OpenCart** است تا از این رفتار جلوگیری شود.
+
+---
+
+## 🧰 پشتیبانی
+در صورت بروز هرگونه خطا یا مشکل در نصب و استفاده از افزونه، از طریق بخش پشتیبانی با ما در ارتباط باشید تا در کوتاه‌ترین زمان ممکن به موضوع رسیدگی شود.
+
+---
+
+## 📄 لایسنس
+این افزونه تحت لایسنس **MIT** منتشر شده است.  
+استفاده، ویرایش و انتشار مجدد با ذکر منبع بلامانع است.
+
+---
+
+## 🧡 توسعه‌دهنده
+**توسعه‌دهنده:** PayPing PHP Team  
+**وب‌سایت:** [PayPing.ir](https://payping.ir)  

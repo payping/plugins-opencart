@@ -1,0 +1,11 @@
+{
+  "name": "PayPing Gateway for opencart",
+  "version": "2.0.0",
+  "author": "PayPing PHP Team",
+  "link": "https://payping.ir/",
+  "type": "payment",
+  "code": "payping",
+  "route": "extension/payping/payment/payping",
+  "image": "https://statics.payping.ir/assets/favicon.ico",
+  "instruction": ""
+}

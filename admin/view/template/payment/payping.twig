@@ -1,0 +1,85 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="float-end">
+        <button type="submit" form="form-payment" data-bs-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa-solid fa-save"></i></button>
+        <a href="{{ back }}" data-bs-toggle="tooltip" title="{{ button_back }}" class="btn btn-light"><i class="fa-solid fa-reply"></i></a>
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ol class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li class="breadcrumb-item"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-triangle-exclamation"></i> {{ error_warning }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endif %}
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-pencil"></i> {{ text_edit }}</h3>
+      </div>
+
+      <div class="card-body">
+        <form id="form-payment" action="{{ save }}" method="post" data-oc-toggle="ajax">
+          <div class="row mb-3 required">
+            <label for="input-api-key" class="col-sm-2 col-form-label">{{ entry_api_key }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="payment_payping_api_key" value="{{ payment_payping_api_key }}" placeholder="{{ entry_api_key }}" id="input-api-key" class="form-control" />
+              {% if error_api_key %}
+                <div class="text-danger">{{ error_api_key }}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="input-order-status" class="col-sm-2 col-form-label">{{ entry_order_status }}</label>
+            <div class="col-sm-10">
+              <select name="payment_payping_order_status_id" id="input-order-status" class="form-select">
+                {% for order_status in order_statuses %}
+                  {% if order_status.order_status_id == payment_payping_order_status_id %}
+                    <option value="{{ order_status.order_status_id }}" selected="selected">{{ order_status.name }}</option>
+                  {% else %}
+                    <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %}
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="input-status" class="col-sm-2 col-form-label">{{ entry_status }}</label>
+            <div class="col-sm-10">
+              <select name="payment_payping_status" id="input-status" class="form-select">
+                {% if payment_payping_status %}
+                  <option value="1" selected="selected">{{ text_enabled }}</option>
+                  <option value="0">{{ text_disabled }}</option>
+                {% else %}
+                  <option value="1">{{ text_enabled }}</option>
+                  <option value="0" selected="selected">{{ text_disabled }}</option>
+                {% endif %}
+              </select>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="input-sort-order" class="col-sm-2 col-form-label">{{ entry_sort_order }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="payment_payping_sort_order" value="{{ payment_payping_sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="developer" class="col-sm-2 col-form-label">{{ text_support }}</label>
+            <div class="col-sm-10">
+              <span id="developer" class="form-control"><a href="https://payping.ir" title="{{ text_support_title }}" target="_blank">{{ text_support_title }}</a></span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ footer }}
